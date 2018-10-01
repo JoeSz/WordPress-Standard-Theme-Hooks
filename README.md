@@ -1,6 +1,7 @@
 # WordPress Standard Theme Hooks
 
-## This project has nothing to do with WordPress. This is an independent community effort.
+## This project has nothing to do with the WordPress site or team.
+## This is an independent community effort.
 
 ## Why you should use standard hooks? ##
 > https://codex.wordpress.org/User_talk:Dcole07<br/>
