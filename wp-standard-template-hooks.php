@@ -780,20 +780,3 @@ function wp_footer_after() {
 	do_action( WP_THEME_HOOK_SLUG . '_after_footer' );
 	do_action( 'tha_footer_after' );
 }
-
-/**
- * Fire the wp_footer_after hook
- *
- * Intended to be immediately before closing HTML body container tag
- *
- * @since 3.6.0
- * @uses do_action() Calls 'wp_footer_after' hook.
- */
-function wp_body_bottom() {
-	do_action( 'body_bottom' );
-	do_action( 'wp_body_bottom' );
-	do_action( 'theme_bottom_body' );
-	do_action( WP_THEME_HOOK_SLUG . '_body_bottom' );
-	do_action( WP_THEME_HOOK_SLUG . '_bottom_body' );
-	do_action( 'tha_body_bottom' );
-}
